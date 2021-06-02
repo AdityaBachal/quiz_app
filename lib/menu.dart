@@ -120,7 +120,7 @@ class _MenuOptionsScreenState extends State<MenuOptionsScreen> {
                 ),
               ),
               onPressed: () //=> print('HELP'),
-                  {
+              {
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => HelpScreen()),
